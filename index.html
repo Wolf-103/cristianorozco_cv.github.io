@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="statics/img/LogoCirculo2.ico" type="image/x-icon" />
+		<!-- Open graph -->
+		<meta property="og:title" content="My CV Web" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://127.0.0.1:5500/CV%20demo/index.html#" />
+		<meta property="og:image" content="http://127.0.0.1:5500/CV%20demo/statics/img/LogoCirculo2.png" />
+		<!-- Open graph fin -->
+		<link rel="stylesheet" href="statics/css/style.css" type="text/css" />
+		<link rel="stylesheet" href="statics/css/menu.css" type="text/css" />
+
+		<link rel="stylesheet" href="statics/css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" href="statics/css/fontAwesome.css" />
+		<title></title>
+	</head>
+	<body id="home" data-spy="scroll" data-target="#navbarSupportedContent">
+		<header >
+			<!-- navbar inicio -->
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top fadeInDown">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item active">
+							<a href="#" class="nav-link" aria-current="page"> Inicio </a>
+						</li>
+						<li class="nav-item active">
+							<a href="#about" class="nav-link" aria-current="page"> Sobre Mi </a>
+						</li>
+						<li class="nav-item active">
+							<a href="#ability" class="nav-link" aria-current="page"> Habilidades </a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link" aria-current="page"> Contacto </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- navbar fin -->
+			<div class="progreso position-fixed fadeInDown">
+				<div class="barra fadeInDown"></div>
+			</div>
+		</header>
+		<div class="container h-auto">
+			<section class="h-75 mt-5">
+				<div class="container pt-3 pb-2">
+					<div class="row d-flex justify-content-center h-100">
+						<!-- HOME INICIO  -->
+						<div class="home row justify-content-center ">
+							<div class="background">
+								<img
+									src="statics/img/fondo-01.jpg"
+									alt="fondo-01"
+									class="img-fluid bw grey" />
+							</div>
+							<div class="heading-content text-center">
+								<h5 class="fadeInLeft">Hola, soy</h5>
+								<h1 id="fullname" class="fadeInRight">Cristian Orozco</h1>
+								<p class="fadeInLeft fw-bold">Y ESTE ES MI MUNDO</p>
+							</div>
+						</div>
+						<a id="about"></a>
+						<hr class="mx-auto mt-5 mb-5" />
+						<!-- HOME FIN  -->
+						<!-- ABOUT INICIO -->
+						<div class="about container mt-5 mb-5">
+							<div class="text-center">
+								<a name="about"></a>
+								<div class="anima-titulo animado display-4 fw-bold">
+									<h3>
+										<i class="icon fa-solid fa-user-tie rounded-circle"></i>
+										Sobre mi
+									</h3>
+									<hr class="w-50 mx-auto pb-5" />
+								</div>
+								<div class="about-content row">
+									<div class="img-profile col-lg-4 col-md-4 col-12">
+										<img
+											id="image-profile"
+											class="animado img-fluid icon rounded-circle"
+											src="statics/img/LogoCirculo2.png"
+											alt="Image-profile" />
+									</div>
+									<div class="col-lg-8 col-md-8 col-12">
+										<h2  class="animado">Quieres conocerme?</h2>
+										<hr />
+										<p class="animado">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+											explicabo labore quod, deserunt corporis accusamus minima excepturi
+											aliquid odio? A tenetur libero itaque id tempora officia magni nam
+											aliquam perferendis.
+										</p>
+										<button class="animado btn w-50 mb-3">
+											<a class="enlace" href="#">Saber más</a>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a id ="ability"></a>
+						<hr class="mx-auto mt-5" />
+						<!-- ABOUT FIN -->
+
+						<!-- ABILITY INICIO -->
+						<div class="ability container">
+							<div class="post-heading text-center">
+								<h3 class="anima-titulo animado display-4 fw-bold">
+									<i class="icon fa-solid fa-screwdriver-wrench rounded-circle"></i>
+									Habilidades
+								</h3>
+								<hr class="w-50 mx-auto pb-5" />
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-lg-6 col-md-6 col-12">
+									<ul class="values animado">
+										<li>HTML5<span style="width: 90%;"></span></li>
+										<li>CSS3<span style="width: 85%;"></span></li>
+										<li>Javascript<span style="width: 80%;"></span></li>
+										<li>jQuery<span style="width: 80%;"></span></li>
+										<li>Android KitKat SDK<span style="width: 95%;"></span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<a id ="contact"></a>
+						<hr class="mx-auto pb-5" />
+						<!-- ABILITY FIN -->
+						<!-- CONTACT INICIO -->
+						<div class="contact container">
+							<div class="post-heading text-center">
+								<h3 class="anima-titulo animado display-4 fw-bold">
+									<i class="icon fa-regular fa-address-card rounded-circle"></i>
+									Contacto
+								</h3>
+								<hr class="w-50 mx-auto pb-5" />
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-lg-4 col-md-4 col-12">
+									<div class="row">
+										<h4 class="mb-4">Datos de Canales</h4>
+										<div class="mb-3 d-flex">
+											<div>
+												<i class="icon-s fa-solid fa-map-location rounded-circle"></i>
+											</div>
+											<div>
+												<span id="location" class="mr-2"></span>
+											</div>
+											<div>
+												<span id="location3" class="mr-2"></span>
+											</div>
+											<div>
+												<span id="location2" class="mr-2"></span>
+											</div>
+										</div>
+										<div class="mb-3">
+											<i class="icon-s fa-solid fa-phone-flip rounded-circle"></i>
+											<span id="phone" class="mr-2"></span>
+										</div>
+										<div class="mb-3">
+											<i class="icon-s fa-regular fa-envelope-open rounded-circle"></i>
+											<span id="emailUs" class="mr-2"></span>										</div>
+									</div>
+								</div>
+								<div class="col-lg-7 col-md-7 col-12 border border-5">
+									<form action="#">
+										<div class="mb-3 mt-3">
+											<label for="nya" class="form-label txt_negrita">Nombres y Apellidos</label>
+											<input type="text" class="form-control" id="nya" aria-describedby="nyaHelp" required>
+											<div id="nyaHelp" class="form-text">Ejemplo: Carlos Torres Rojas</div>
+										</div>
+										<div class="mb-3">
+											<label for="email" class="form-label txt_negrita">Email</label>
+											<input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+											<div id="emailHelp" class="form-text">Ejemplo: miemail@mail.com</div>
+										</div>
+										<div class="mb-3">
+											<label for="asunto" class="form-label txt_negrita">Asunto</label>
+											<input type="text" class="form-control" id="asunto" aria-describedby="asuntoHelp" required>
+											<div id="asuntoHelp" class="form-text">Ejemplo: Solicitud de Compra</div>
+										</div>
+										<div class="mb-3 mb-3">
+											<label for="mensaje" class="form-label txt_negrita">Mensaje</label>
+											<textarea class="form-control" id="mensaje" rows="3" required></textarea>
+										</div>
+										<button type="submit" class="btn btn-primary mb-3">Enviar</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<!-- CONTACT FIN -->
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer
+			class="d-flex flex-wrap justify-content-between align-items-center ms-4 py-3 my-2 border-top">
+			<div class="col-md-4 d-flex align-items-center">
+				<a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+					<img
+						class="img"
+						width="30"
+						height="24"
+						src="statics/img/LogoCirculo2.png" />
+				</a>
+				<span class="mb-3 mb-md-0 text-muted"
+					>© 2022 Wolf Connection Bridge, Inc</span
+				>
+			</div>
+			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
+				<li class="ms-3">
+					<a class="text-muted" href="#"
+						><i class="fa-brands fa-facebook fa-2x"></i
+					></a>
+				</li>
+				<li class="ms-3">
+					<a class="text-muted" href="#"
+						><i class="fa-brands fa-github fa-2x"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
+
+		<script
+			type="text/javascript"
+			src="statics/js/bootstrap/bootstrap.bundle.min.js"
+			async
+			defer></script>
+		<!-- <script src="statics/js/jquery-3.2.1.min.js"></script> -->
+		<!-- <script src="statics/js/popper.min.js"></script> -->
+		<script type="module" src="statics/js/index.js"></script>
+	</body>
+</html>
